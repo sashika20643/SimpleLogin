@@ -82,4 +82,14 @@ nav ul li:hover {
   background-color: #0ffc0f;
   color: black;
 }
+@media only screen and (max-width: 768px) {
+  .logincont {
+    height: auto;
+  }
+  nav img {
+    display: none;
+  }
+  nav ul {
+    width: 100%;
+  }
 /*# sourceMappingURL=main.css.map */
