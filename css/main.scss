@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(79, 55, 216);
+    background-image: url("../asests/images/bg.jpg");
+    background-size: cover;
+    background-blend-mode: lighten;
+    display: flex;
+    
+    
+   margin:0;
+   padding:0;
+}
+
+nav{
+   
+    width:100%;
+    position: absolute;
+   
+    img{margin-left: 20px;
+        width: 100px;
+        height:100px;
+
+    }
+    ul{ float: right;
+        margin-top: 50px;;
+        display:flex;
+        width: 40%;
+        justify-content: space-evenly;
+        list-style: none;
+        li:hover{
+            color:rgb(56, 54, 54);
+            font-weight: bold;
+            cursor:pointer;
+        }
+
+    }
+   
+}
+
+
+.logincont{
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    color:white;
+    height:40vh;
+}
+.container{
+
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    input{
+        display: box;
+        width:60%;
+        margin:10px;
+        height: 5vh;
+       
+    }
+    button{
+        margin:10px;
+        color:white;
+        background-color: green;
+        padding: 12px;
+        
+        border-radius: 4px;
+        border:none;
+
+    }
+    button:hover{
+        background-color: rgb(15, 252, 15);
+        color:black;
+    }
+}
